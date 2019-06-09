@@ -79,7 +79,7 @@ sudo sed -i 's/username_here/root/g' /var/www/html/wp-config.php
 
 sudo sed -i 's/password_here/Password@123/g' /var/www/html/wp-config.php
 
-sudo sed -i 's/localhost/50.0.2.137/g' /var/www/html/wp-config.php
+sudo sed -i 's/localhost/50.0.2.20/g' /var/www/html/wp-config.php
 
 echo "----------------------------------------------
 Wordpress Installation has been completed successfully
