@@ -1,10 +1,5 @@
 #!/bin/bash -e
 
-#Creating Wordpress DB User and passwords with privileges.
-echo "Creating Wordpress DB Users and grating privileges with already collected information...\n"
-
-sudo mysqladmin -u root -pPassword@123 create blog
-
 echo "Installing additional PHP plugins as a default set which might be required by Wordpress... \n
 NOTE: Each WordPress plugin has its own set of requirements. Some may require additional PHP packages to be installed. Check your plugin documentation to discover its PHP requirements \n"
 
